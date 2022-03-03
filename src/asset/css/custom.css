@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topfixBanner{
+    background-image: url(../images/Slider-Background.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBanneroverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.topContainer{
+    margin-top: 12rem;
+}
+.topTitle{
+    color:aliceblue;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subTitle{
+    color:aliceblue;
+    font-size: 25px;
+    font-weight: 350;
+}
+
+
+/* ============ Service Section =========== */
+.card_design{
+    border: 2px solid rgb(66, 64, 64);
+    padding: 4px 4px;
+    /* min-height: 323px; */
+    height: 323px;
+}
+
+.card_design:hover {
+    border-color: #0B5ED7;
+    transition: 1s;
+    transform: scale(1.1,1.1);
+}
