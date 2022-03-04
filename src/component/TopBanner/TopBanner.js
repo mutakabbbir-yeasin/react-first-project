@@ -9,7 +9,7 @@ export default class TopBanner extends Component {
         <Fragment>
             <Container fluid={true} className="topfixBanner">
                 <div className="topBanneroverlay">
-                  <Container className="topContainer">
+                  <Container fluid={true} className="topContainer">
                     <Row>
                         <Col className="text-center ">
                           <h2 className="topTitle">Software Develpoment Company</h2>
