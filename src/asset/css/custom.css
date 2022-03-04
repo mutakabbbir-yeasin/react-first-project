@@ -47,3 +47,33 @@
     transition: 1s;
     transform: scale(1.1,1.1);
 }
+
+/* ============ Feature Section =========== */
+
+.feature_container{
+    background: rgba(227, 243, 238, 0.698);
+    max-width: 100% !important;
+    text-align: center;
+    padding-left: 112px !important;
+    padding-right: 210px !important;
+}
+
+.feature_h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.feature_paragrapg{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.product_ul{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 40px;
+}
